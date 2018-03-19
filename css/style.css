@@ -2,47 +2,20 @@
 
 @font-face {
     font-family: 'Raleway';
-    src: url(../fonts/Raleway-Bold.ttf);
+    src: url(Raleway-Bold.ttf);
+     src: url(Raleway-SemiBold.ttf);
+    src: url(Raleway-Medium.ttf);
 
-}
-   @font-face { font-family: 'Raleway';
-     src: url(../fonts/Raleway-SemiBold.ttf);
- }
-
-    @font-face {  font-family: 'Raleway';
-    src: url(../fonts/Raleway-Medium.ttf);
-}
-   @font-face {
-   font-family: 'Lato';
-    src: url(../fonts/Lato-Regular.ttf);
-}
-
-  @font-face {
-     font-family: 'Lato';
-  
-    src: url(../fonts/Lato-Bold.ttf);
-}
-
-  @font-face {
-     font-family: 'Lato';
-  
-    src: url(../fonts/Lato-Medium.ttf);
-}
+    font-family: 'Lato';
+    src: url(Lato-Regular.ttf);
+    src: url(Lato-Bold.ttf);
+    src: url(Lato-Medium.ttf);
+    src: url(Lato-Light.ttf);
 
 
-@font-face {
-     font-family: 'Lato';
-    src: url(../fonts/Lato-Light.ttf);
-
-}
-
-@font-face {
   font-family: 'MyriadPro';
-    src: url(../fonts/MYRIADPROREGULAR.ttf);  
+    src: url(MYRIADPROREGULAR.ttf);  
 }
-
-}
-
 
 header img.banner {
     width: 100%;
@@ -1935,20 +1908,3 @@ h1.right_text {
 }
 }
 
- @media only screen and (min-width : 1224px)
- {
-
-    .logo-wrap img{
-    margin-left:42px;
- }
-
-   .log { 
-    float: left;
-    margin-left: 70px;
- }
-
- h1.right_text
- {
-    right: 2px;
- }
-}
