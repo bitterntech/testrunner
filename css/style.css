@@ -1,21 +1,47 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url(../fonts/Raleway-Bold.ttf);
+
+}
+   @font-face { font-family: 'Raleway';
+     src: url(../fonts/Raleway-SemiBold.ttf);
+ }
+
+    @font-face {  font-family: 'Raleway';
+    src: url(../fonts/Raleway-Medium.ttf);
+}
+   @font-face {
+   font-family: 'Lato';
+    src: url(../fonts/Lato-Regular.ttf);
+}
+
+  @font-face {
+     font-family: 'Lato';
+  
+    src: url(../fonts/Lato-Bold.ttf);
+}
+
+  @font-face {
+     font-family: 'Lato';
+  
+    src: url(../fonts/Lato-Medium.ttf);
+}
 
 
 @font-face {
-    font-family: 'Raleway';
-    src: url(Raleway-Bold.ttf);
-     src: url(Raleway-SemiBold.ttf);
-    src: url(Raleway-Medium.ttf);
+     font-family: 'Lato';
+    src: url(../fonts/Lato-Light.ttf);
 
-    font-family: 'Lato';
-    src: url(Lato-Regular.ttf);
-    src: url(Lato-Bold.ttf);
-    src: url(Lato-Medium.ttf);
-    src: url(Lato-Light.ttf);
-
-
-  font-family: 'MyriadPro';
-    src: url(MYRIADPROREGULAR.ttf);  
 }
+
+@font-face {
+  font-family: 'MyriadPro';
+    src: url(../fonts/MYRIADPROREGULAR.ttf);  
+}
+
+}
+
+
 
 header img.banner {
     width: 100%;
@@ -45,7 +71,7 @@ header img.banner {
     list-style-type:  none;
     /* margin-top: 0; */
     /* margin: 0; */
-    padding: 0px 0px 10px 21px;
+    padding: 10px 0px 10px 21px;
     /* margin: 0px 90px 0px 168px; */
     text-align: center;
 }
@@ -68,7 +94,8 @@ header img.banner {
 
  .inner_header img.banner:before{content:"";position:absolute;}
  
- .inner_header img.banner{position:relative;}
+ .inner_header img.banner{position:relative;
+ width:100%;}
 
 
 .navbar-collapse ul li a {color: #fff;font-weight: 500;font-size: 14px;font-family: 'Raleway';text-decoration:none;text-transform:  uppercase;/* letter-spacing:1px; */}
@@ -98,8 +125,7 @@ header {
     width: 100%;
 }
 .navbar-brand>img {
-    width: 100%;
-    float:  left;
+    width: 180px;
 }
 
 .inner_bnr_txt {
@@ -177,12 +203,12 @@ ul.advisers li {
 }
 
 h1.right_text {
-    font-size: 39px;
+    font-size: 42px;
     font-weight: 500;
     color: #fff;
     line-height: 40px;
     position:  relative;
-    right: 40px;
+    right: 38px;
     top: -15px;
     font-family: Raleway;
 }
@@ -199,14 +225,14 @@ h1.right_text span {
 }
 
 h5.right_subtext {
-    font-size: 15px;
+    font-size: 16px;
     font-family: 'Lato';
     color: #fff;
     text-align:  left;
     line-height: 26px;
     position:  relative;
     top: 10px;
-    right: 44px;
+    right: 46px;
     font-weight: 500;
 }
 
@@ -1183,16 +1209,14 @@ h6 img{margin-right: 38px;margin-left: 16px;margin-top: -5px;width: 32px;}
     border-radius: 15px;
     padding: 10px 20px;
     margin-right: -70px;
-    margin-top: -10px;
 }
 
   .logo-wrap
   
    {
-    margin-left: -50px;
+    margin-left: -92px;
     float: left;
     margin-top: -10px;
-    width: 100%;
  }
     
     .left_empty img
@@ -1235,6 +1259,77 @@ h3:after {
     left: 552px;
     background: linear-gradient(to right, #5c33ac , #722197);
 }
+
+/*.user_bg:after {
+    content:  "";
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    background: #9369ee;
+    position:  absolute;
+    left: 230px;
+    top: 68px;
+}
+
+.user_icon:after {
+    content:  "";
+    width: 8px;
+    height: 8px;
+    background: #9369ee;
+    position:  absolute;
+    border-radius: 8px;
+    left: 266px;
+    top: 68px;
+}
+
+.user_icon {
+    position:  relative;
+}
+
+.user_bg1:before {
+    position:  absolute;
+    content:  "";
+    width: 8px;
+    height: 8px;
+    background: #9369ee;
+    border-radius:  8px;
+    right: 220px;
+    top: 68px;
+}
+
+
+
+.user_bg1:after {
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: #fb66b4;
+    border-radius: 8px;
+    left: 232px;
+    top: 72px;
+}
+
+.user_icon1 {
+    position:  relative;
+}
+
+.user_icon1:after {
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: #fb66b4;
+    border-radius: 8px;
+    left: 264px;
+    top: 72px;
+}
+
+.user_bg2:after {
+    width: 100%;
+
+}*/
+
 
 .main-fn:after {
     content: "";
@@ -1852,14 +1947,7 @@ button.bt {
     margin-top: 140px;
 }
 
-/*@media (min-width: 1200px)
-{
-.container {
-    width: 1280px;
-}
-}*/
-
-@media (max-width:1024px)
+/*@media (max-width:1024px)
 {
 .logo-wrap {
     margin-left: -36px !important;
@@ -1906,5 +1994,4 @@ h1.right_text {
     padding: 8px 0;
     margin-right: -30px;
 }
-}
-
+}*/
