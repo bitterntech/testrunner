@@ -793,6 +793,7 @@ footer {
  font-size: 16px;
  text-align:  center;
  margin-top: 1px;
+ font-family: 'MYriadPro';
 }
 
 .Characteristics
@@ -992,6 +993,7 @@ width: 100%;
    font-size: 16px;
    color: #000;
    font-weight:  bold;
+   font-family: 'MYriadPro';
 }
 
 .users2 .count2 p {
@@ -999,6 +1001,7 @@ width: 100%;
    font-size:  15px;
    color: #000;
    font-weight:  bold;
+   font-family: 'MYriadPro';
 }
 
 .users1 p {
@@ -1208,13 +1211,13 @@ h6 img{margin-right: 38px;margin-left: 16px;margin-top: -5px;width: 32px;}
     border: 1px solid #ccc;
     border-radius: 15px;
     padding: 10px 20px;
-    margin-right: -70px;
+    /* margin-right: -70px; */
 }
 
   .logo-wrap
   
    {
-    margin-left: -92px;
+    /* margin-left: -92px; */
     float: left;
     margin-top: -10px;
  }
@@ -1947,7 +1950,7 @@ button.bt {
     margin-top: 140px;
 }
 
-/*@media (max-width:1024px)
+@media (max-width:1024px)
 {
 .logo-wrap {
     margin-left: -36px !important;
@@ -1994,4 +1997,4 @@ h1.right_text {
     padding: 8px 0;
     margin-right: -30px;
 }
-}*/
+}
